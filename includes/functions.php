@@ -43,6 +43,6 @@
             }
         }
     function redirect(){
-        header("Location: /templates\header.php");
+        header("Location: /public/index.php");
     }
 ?>
