@@ -1,5 +1,5 @@
         <div class="container">    
-            <form method="post" action="/public/modificar.php?id=<?=$producto['id']?>">
+            <form method="post" action="/public/modificar.php?id=<?=$producto['id']?>" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label class="form-label">Nombre del producto</label>
                     <input class="form-control" type="text" value="<?=$producto['nombre']?>" name="nombre" placeholder="Modifica el nombre de tu producto" aria-label="default input example" required>
@@ -21,8 +21,8 @@
                     <input class="form-control" type="text" value="<?=$producto['cont']?>" name="cont" placeholder="Modifica el contenido de tu producto" aria-label="default input example" required>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Imagen</label>
-                    <input class="form-control" type="text" value="<?=$producto['imagen']?>" name="imagen" placeholder="Modifica la ruta de la imagen" aria-label="default input example" required>
+                    <label for="formFile" class="form-label">Inserte la imágen del producto</label>
+                    <input class="form-control" type="file" id="formFile" name="imagen">
                 </div>
                 <button type="submit" class="btn btn-outline-success">Actualizar</button>
             </form>    
