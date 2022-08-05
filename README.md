@@ -1,7 +1,3 @@
-## Configuración de archivos internos
-
-Para que el proyecto funcione correctamente hay que cambiar todo lo que diga example2.com de cada archivo del proyecto por el nombre de la carpeta en la que estén tus archivos.
-
 ## Archivo *constants*
 
 En la carpeta de includes se encuentra el archivo *constants.php*, en este archivo vamos a cambiar los valores necesarios para que quede con la información de tu base de datos. 
