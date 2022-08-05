@@ -22,7 +22,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Imagen</label>
-                    <input class="form-control" type="text" name="imagen" placeholder="Ingresa la ruta de la imagen" aria-label="default input example">
+                    <input class="form-control" type="text" value="<?=$producto['imagen']?>" name="imagen" placeholder="Ingresa la ruta de la imagen" aria-label="default input example" required>
                 </div>
                 <button type="submit" class="btn btn-outline-success">Actualizar</button>
             </form>    
