@@ -21,8 +21,8 @@
                     <input class="form-control" type="text" name="cont" placeholder="Ingresa el contenido de tu producto" aria-label="default input example" required>
                 </div>
                 <div class="mb-3">
-                    <label for="formFile" class="form-label">Inserte la imágen del producto</label>
-                    <input class="form-control" type="file" id="formFile" name="imagen">
+                    <label class="form-label">Imagen</label>
+                    <input class="form-control" type="text" name="imagen" placeholder="Ingresa la ruta de la imagen" aria-label="default input example">
                 </div>
                 <button type="submit" class="btn btn-primary">Añadir</button>
             </form>    
