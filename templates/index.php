@@ -2,7 +2,7 @@
                 if(count($papeleria)==0){
 
             ?>
-                <h1>No existe su búsqueda</h1>
+                <h1>Sin resultados</h1>
             <?php
                 }
             ?>
