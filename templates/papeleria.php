@@ -8,7 +8,6 @@
                             <p class="card-text"><?='Precio: $'.$y['precio']?></p>
                             <p class="card-text"><?='Tamaño: '.$y['size']?></p>
                             <p class="card-text"><?='Stock: '.$y['stock']?></p>
-                            <p class="card-text"><?='Contiene: '.$y['cont']?></p>
                             <a type="button" class="btn btn-outline-danger" href="/eliminarproducto.php?id=<?=$y['id']?>">Eliminar</a>
                             <a type="button" class="btn btn-outline-warning" href="/editarproducto.php?id=<?=$y['id']?>">Editar</a>
                         </div>
