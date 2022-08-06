@@ -17,10 +17,6 @@
                     <input class="form-control" type="number" value="<?=$producto['stock']?>" name="stock" placeholder="Modifica el stock de tu producto" aria-label="default input example" required>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Contenido</label>
-                    <input class="form-control" type="text" value="<?=$producto['cont']?>" name="cont" placeholder="Modifica el contenido de tu producto" aria-label="default input example" required>
-                </div>
-                <div class="mb-3">
                     <label class="form-label">Imagen</label>
                     <input class="form-control" type="text" value="<?=$producto['imagen']?>" name="imagen" placeholder="Ingresa la ruta de la imagen" aria-label="default input example" required>
                 </div>
