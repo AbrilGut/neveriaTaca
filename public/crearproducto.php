@@ -6,9 +6,8 @@ $nombre=$_POST["nombre"];
 $precio=$_POST["precio"];
 $size=$_POST["size"];
 $stock=$_POST["stock"];
-$cont=$_POST["cont"];
 $imagen=$_POST["imagen"];
-$inserccion=query("INSERT INTO `articulos` (`id`, `nombre`, `precio`, `size`, `stock`, `cont`, `imagen`) VALUES (NULL, ?, ?, ?, ?, ?, ?)",$nombre,$precio,$size,$stock,$cont,$imagen);
+$inserccion=query("INSERT INTO `articulos` (`id`, `nombre`, `precio`, `size`, `stock`, `imagen`) VALUES (NULL, ?, ?, ?, ?, ?)",$nombre,$precio,$size,$stock,$imagen);
 var_dump($inserccion);
 
 redirect();
