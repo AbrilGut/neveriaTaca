@@ -10,10 +10,10 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Tamaño</label>
-                    <select name="size[]" id="size" class="form-select" aria-label="Default select example" multiple>
-                        <option value="1">Chico</option>
-                        <option value="2">Mediano</option>
-                        <option value="3">Grande</option>
+                    <select name="size" id="size" class="form-select" aria-label="Default select example" multiple>
+                        <option value="Chico">Chico</option>
+                        <option value="Mediano">Mediano</option>
+                        <option value="Grande">Grande</option>
                     </select>
                 </div>
                 <div class="mb-3">
