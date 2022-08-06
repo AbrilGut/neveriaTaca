@@ -11,6 +11,12 @@
                 <div class="mb-3">
                     <label class="form-label">Tamaño</label>
                     <input class="form-control" type="text" value="<?=$producto['size']?>" name="size" placeholder="Modifica el tamaño de tu producto" aria-label="default input example" required>
+                    <label class="form-label">Tamaño</label>
+                    <select name="size" id="size" class="form-select" aria-label="Default select example" multiple required>
+                        <option value="Chico">Chico</option>
+                        <option value="Mediano">Mediano</option>
+                        <option value="Grande">Grande</option>
+                    </select>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Stock</label>
