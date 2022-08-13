@@ -21,8 +21,8 @@
                     <input class="form-control" type="number" name="stock" placeholder="Ingresa el stock de tu producto" aria-label="default input example" required>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Imagen</label>
-                    <input class="form-control" type="text" name="imagen" placeholder="Ingresa la ruta de la imagen" aria-label="default input example" required>
+                    <label for="formFile" class="form-label">Imagen</label>
+                    <input class="form-control" type="file" name="imagen" placeholder="Ingresa la imagen" aria-label="default input example" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Añadir</button>
             </form>    
